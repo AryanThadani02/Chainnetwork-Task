@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaintech</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="text-white overflow-x-hidden">
+    <div class="flex flex-col h-screen bg-black">
+      <!-- Header Section -->
+      <nav>
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="https://flowbite.com/"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="logo.png" class="h-8" alt="Chaintech Logo" />
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:p-0 dark:text-white md:dark:text-green-500"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section
+        class="flex flex-col items-center justify-center text-center h-[90vh] px-4"
+      >
+        <!-- Welcome Text -->
+        <h1 class="text-5xl md:text-6xl lg:text-8xl font-extrabold">WELCOME</h1>
+        <h1 class="text-5xl md:text-6xl lg:text-8xl font-extrabold">
+          TO
+          <span
+            class="bg-gradient-to-r from-[#FFFF00] to-[#00FFA7] bg-clip-text text-transparent"
+            >CHAINTECH</span
+          >
+        </h1>
+        <!-- Subtitle -->
+        <p class="text-white mt-4 max-w-2xl text-base md:text-lg lg:text-xl">
+          From square one to engineering excellence! PixelPlex assists in
+          full-cycle software development, jumps in to take it over, or brings
+          dedicated top-demanded skills.
+        </p>
+        <!-- Call-to-Action Button -->
+        <a
+          href="#"
+          class="mt-8 inline-block px-4 py-2 text-lg font-medium bg-white text-black rounded-full hover:bg-gray-200"
+        >
+          Get Started
+          <i
+            class="fas fa-arrow-right ml-2 bg-black text-white p-2 text-md rounded-full"
+          ></i>
+        </a>
+      </section>
+    </div>
+
+    <!-- Service Section -->
+    <div class="mx-0 md:mx-40 pt-20 w-screen max-w-4xl">
+      <h2 class="text-black text-3xl md:text-4xl font-bold">
+        Services We Offer
+      </h2>
+    </div>
+    <div
+      class="mx-0 md:ml-40 flex flex-col md:flex-row justify-between items-center w-full"
+    >
+      <p class="text-gray-700 text-base md:text-lg max-w-3/4 mb-4 md:mb-0">
+        Discover the digital possibilities for your brand with our comprehensive
+        suite of services.
+      </p>
+      <div class="flex items-center pr-80">
+        <i class="fas fa-arrow-left text-black pr-5 text-md rounded-full"></i>
+        <i
+          class="fas fa-arrow-right text-black border-2 border-black p-2 text-md rounded-full"
+        ></i>
+      </div>
+    </div>
+
+    <!-- Flex Container for Cards -->
+    <div class="mx-auto flex flex-wrap justify-center">
+      <!-- Card 1 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(43, 255, 138, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Blockchain <br />Development
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="1.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(0, 240, 255, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Blockchain <br />Development
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="2.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-black text-white px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-white hover:text-black"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(252, 89, 89, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Security <br />AAS
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="3.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(45, 69, 230, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Motion <br />Graphic
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="4.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto flex flex-wrap justify-center">
+      <!-- Card 1 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(43, 255, 138, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Blockchain <br />Development
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="1.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(0, 240, 255, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Blockchain <br />Development
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="2.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(252, 89, 89, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Security <br />AAS
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="3.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="w-72 rounded-3xl overflow-hidden shadow-lg mx-2 my-4 border-[3px] border-black"
+        style="background-color: rgba(45, 69, 230, 0.15)"
+      >
+        <!-- Card Header -->
+        <div class="flex items-center p-4 border-b-[3px] border-black">
+          <img
+            src="s-logo.png"
+            alt="Logo"
+            class="mr-3 p-1 bg-black rounded-full"
+          />
+          <h1 class="font-semibold text-black">Join Development</h1>
+        </div>
+
+        <!-- Card Content -->
+        <div class="p-4">
+          <h2 class="text-2xl font-bold mb-2 text-black text-center">
+            Motion <br />Graphic
+          </h2>
+        </div>
+
+        <!-- Card Image -->
+        <div>
+          <img
+            src="4.png"
+            alt="Content"
+            class="w-full h-48 object-contain border-b-[3px] border-black"
+          />
+        </div>
+
+        <!-- Card Footer -->
+        <div class="flex justify-end p-4">
+          <button
+            class="bg-white text-black px-4 py-2 rounded-full transition duration-200 border-[3px] border-black font-bold hover:bg-black hover:text-white"
+          >
+            Explore
+            <i
+              class="fas fa-arrow-right ml-2 bg-gradient-to-l from-[#00FFA7] to-[#FFFF00] text-black p-1.5 text-md rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-10 mt-8">
+      <img class="mx-auto h-10 md:h-12 lg:h-14" src="logo.png" alt="" />
+      <hr class="w-2/3 mx-auto my-8 border-gray-500" />
+      <p class="text-[#98A6AC] text-sm md:text-base">
+        © 2024 All Rights Reserved - Chaintech Network
+      </p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</html>
